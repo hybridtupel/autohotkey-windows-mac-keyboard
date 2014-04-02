@@ -1,4 +1,4 @@
-;-----------------------------------------
+ï»¿;-----------------------------------------
 ; Mac keyboard to Windows Key Mappings
 ;=========================================
 
@@ -91,11 +91,11 @@ Lwin & Tab::AltTab
 ; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
 
-; Map Alt + N to ©
-!g::SendInput {©}
+; Map Alt + N to Â©
+!g::SendInput {Â©}
 
-; Map AltGr + o to ø
-<^>!o::SendInput {ø}
+; Map AltGr + o to Ã¸
+<^>!o::SendInput {Ã¸}
 
 ; Map AltGr + 5 to [
 <^>!5::SendInput {[}
@@ -103,8 +103,8 @@ Lwin & Tab::AltTab
 ; Map AltGr + 6 to ]
 <^>!6::SendInput {]}
 
-; Map Alt + E to €
-!e::SendInput {€}
+; Map Alt + E to â‚¬
+!e::SendInput {â‚¬}
 
 ; Map AltGr + 8 to {
 <^>!8::SendInput {{}
@@ -112,17 +112,17 @@ Lwin & Tab::AltTab
 ; Map AltGr + 9 to }
 <^>!9::SendInput {}}
 
-; Map Alt + - to ±
-!+::SendInput {±}
+; Map Alt + - to Â±
+!+::SendInput {Â±}
 
-; Map Alt + R to ®
-!r::SendInput {®}
+; Map Alt + R to Â®
+!r::SendInput {Â®}
 
 ; Map Alt + 7 to |
 !7::SendInput {|}
 
-; Map AltGr + ß to ¿
-<^>!ß::SendInput {¿}
+; Map AltGr + ÃŸ to Â¿
+<^>!ÃŸ::SendInput {Â¿}
 
 ; Map AltGr + N to ~
 <^>!n::SendInput {~}
@@ -132,13 +132,13 @@ Lwin & Tab::AltTab
 ; Custom mappings for special chars
 ; --------------------------------------------------------------
 
-; Map [ and ] to Alt+ö and Alt+ä
-!ö::SendInput {[} 
-!ä::SendInput {]} 
+; Map [ and ] to Alt+Ã¶ and Alt+Ã¤
+!Ã¶::SendInput {[} 
+!Ã¤::SendInput {]} 
 
-; Map { and } to Ctrl + ö and Ctrl + ä
-^ö::SendInput {{} 
-^ä::SendInput {}} 
+; Map { and } to Ctrl + Ã¶ and Ctrl + Ã¤
+^Ã¶::SendInput {{} 
+^Ã¤::SendInput {}} 
 
 
 ; --------------------------------------------------------------
