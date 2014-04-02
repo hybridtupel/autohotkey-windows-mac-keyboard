@@ -22,13 +22,6 @@ SendMode Input
 ; media/function keys all mapped to the right option key
 ; --------------------------------------------------------------
 
-RAlt & F7::SendInput {Media_Prev}
-RAlt & F8::SendInput {Media_Play_Pause}
-RAlt & F9::SendInput {Media_Next}
-F10::SendInput {Volume_Mute}
-F11::SendInput {Volume_Down}
-F12::SendInput {Volume_Up}
-
 ; swap left command/windows key with left alt
 ;LWin::LAlt
 ;LAlt::LWin ; add a semicolon in front of this line if you want to disable the windows key
@@ -40,12 +33,6 @@ F20::SendInput {Insert}
 F13::SendInput {PrintScreen}
 F14::SendInput {ScrollLock}
 F15::SendInput {Pause}
-
-;F16-19 custom app launchers, see http://www.autohotkey.com/docs/Tutorial.htm for usage info
-F16::Run http://twitter.com
-F17::Run http://tumblr.com
-F18::Run http://www.reddit.com
-F19::Run https://facebook.com
 
 ; --------------------------------------------------------------
 ; OS X system shortcuts
@@ -101,58 +88,57 @@ Lwin & Tab::AltTab
 ; Map Alt + L to @
 !l::SendInput {@}
 
-; Map Alt + N to \
+; Map Shift + Alt + 7 to \
 +!7::SendInput {\}
 
-; Map Alt + N to Â©
-!g::SendInput {Â©}
+; Map Alt + N to ©
+!g::SendInput {©}
 
-; Map Alt + o to Ã¸
-!o::SendInput {Ã¸}
+; Map AltGr + o to ø
+<^>!o::SendInput {ø}
 
-; Map Alt + 5 to [
-!5::SendInput {[}
+; Map AltGr + 5 to [
+<^>!5::SendInput {[}
 
-; Map Alt + 6 to ]
-!6::SendInput {]}
+; Map AltGr + 6 to ]
+<^>!6::SendInput {]}
 
-; Map Alt + E to â‚¬
-!e::SendInput {â‚¬}
+; Map Alt + E to €
+!e::SendInput {€}
 
-; Map Alt + - to â€“
-!-::SendInput {â€“}
+; Map AltGr + 8 to {
+<^>!8::SendInput {{}
 
-; Map Alt + 8 to {
-!8::SendInput {{}
+; Map AltGr + 9 to }
+<^>!9::SendInput {}}
 
-; Map Alt + 9 to }
-!9::SendInput {}}
+; Map Alt + - to ±
+!+::SendInput {±}
 
-; Map Alt + - to Â±
-!+::SendInput {Â±}
+; Map Alt + R to ®
+!r::SendInput {®}
 
-; Map Alt + R to Â®
-!r::SendInput {Â®}
-
-; Map Alt + N to |
+; Map Alt + 7 to |
 !7::SendInput {|}
 
-; Map Alt + W to âˆ‘
-!w::SendInput {âˆ‘}
+; Map AltGr + ß to ¿
+<^>!ß::SendInput {¿}
 
-; Map Alt + N to ~
-!n::SendInput {~}
+; Map AltGr + N to ~
+<^>!n::SendInput {~}
 
 
 ; --------------------------------------------------------------
 ; Custom mappings for special chars
 ; --------------------------------------------------------------
 
-#Ã¶::SendInput {[} 
-#Ã¤::SendInput {]} 
+; Map [ and ] to Alt+ö and Alt+ä
+!ö::SendInput {[} 
+!ä::SendInput {]} 
 
-^Ã¶::SendInput {{} 
-^Ã¤::SendInput {}} 
+; Map { and } to Ctrl + ö and Ctrl + ä
+^ö::SendInput {{} 
+^ä::SendInput {}} 
 
 
 ; --------------------------------------------------------------
